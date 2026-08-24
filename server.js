@@ -20,6 +20,11 @@ import contactRoutes from "./routes/contact.js";
 
 const app = express(); /* express er en funktion. får du en helt ny, tom "app" tilbage — et objekt der har en masse indbyggede funktioner du kan bruge (app.use, app.get, app.listen */
 
+// Render tager imod https og sender almindelig http videre internt til vores server.
+// Uden denne linje tror Express derfor requestet IKKE er sikkert, og nægter at sætte
+// "secure"-cookien (browseren ville alligevel afvise den over http).
+app.set("trust proxy", 1);
+
 app.use(
   /* "kør denne kode for alle requests, uanset hvilken adresse de rammer." */
   cors({
