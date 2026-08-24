@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Beyond",
+    "img": "one.jpg",
+    "description": {
+      "paragraph": "Alien Encounter",
+      "content": [
+        {
+          "text": "Scientists have reported an unexplained signal originating from deep space, sparking renewed interest in extraterrestrial life. The signal appears to follow a repeating mathematical pattern."
+        },
+        {
+          "text": "Eyewitnesses across multiple continents describe seeing unidentified flying objects hovering silently before accelerating at extreme speeds beyond known human technology."
+        },
+        {
+          "text": "Experts remain divided on whether these sightings represent advanced alien probes, experimental aircraft, or natural atmospheric phenomena not yet fully understood."
+        },
+        {
+          "text": "Governments have neither confirmed nor denied the existence of alien contact, but several previously classified documents have recently been released to the public."
+        },
+        {
+          "text": "Source: Galactic Research Council <br /> Location: Earth Orbit <br /> Classification: Restricted <br />contact@space-news.example<br />Ref: XJ-10942"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Story",
+    "img": "two.jpg",
+    "description": {
+      "paragraph": "Alien News",
+      "content": [
+        {
+          "headline": "Ancient Civilizations and Alien Influence",
+          "text": "Archaeologists have discovered structures that challenge current historical timelines.</br> Some researchers suggest the possibility of extraterrestrial assistance in early human development."
+        },
+        {
+          "headline": "Area 51: New Revelations",
+          "text": "Former military personnel claim experimental technology recovered from non-human craft was tested in secret facilities.</br> Officials state the site was used only for conventional research."
+        },
+        {
+          "headline": "First Contact: Are We Ready?",
+          "text": "Philosophers and scientists debate how humanity should respond if intelligent alien life makes direct contact with Earth."
+        },
+        {
+          "headline": "Alien Life in Our Solar System",
+          "text": "Recent missions suggest microbial life may exist beneath the icy surfaces of moons such as Europa and Enceladus."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Alien",
+    "img": "three.jpg",
+    "description": {
+      "paragraph": "Alien Technology",
+      "content": [
+        {
+          "headline": "Recovered UFO Materials",
+          "text": "Alleged fragments from unidentified craft show properties not found in any known terrestrial alloys."
+        },
+        {
+          "headline": "Propulsion Beyond Physics",
+          "text": "Theoretical models propose that alien spacecraft may manipulate gravity or spacetime to achieve near-instant acceleration."
+        },
+        {
+          "headline": "Communication Methods",
+          "text": "Scientists speculate that extraterrestrials could use quantum signals or frequencies undetectable by current Earth technology."
+        },
+        {
+          "headline": "Artificial Intelligence from Other Worlds",
+          "text": "Some experts believe first contact may occur through autonomous alien probes rather than biological beings."
+        },
+        {
+          "headline": "Energy Sources of Alien Craft",
+          "text": "Zero-point energy and dark matter are among the theories proposed to explain alien power systems."
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Universe",
+    "img": "four.jpg",
+    "description": {
+      "paragraph": "Alien Case Files",
+      "content": [
+        {
+          "headline": "Top 10 UFO Sightings",
+          "text": "<ul style='list-style-position: inside'><li>Roswell Incident</li><li>Phoenix Lights</li><li>Belgian UFO Wave</li><li>Rendlesham Forest</li><li>Tic Tac UFO</li><li>Washington Flyover</li><li>Westall Encounter</li><li>O'Hare Airport</li></ul>"
+        },
+        {
+          "headline": "Official Reports",
+          "text": "<a href='#' class='hover:text-gray-300'>Download declassified alien documents</a>"
+        },
+        {
+          "headline": "",
+          "text": "<span style=' margin: 20px'></span>"
+        },
+        {
+          "headline": "Alien Abduction Stories",
+          "text": "Thousands of individuals worldwide report similar abduction experiences involving missing time and strange markings."
+        },
+        {
+          "headline": "Archive",
+          "text": "<a href='#' class='hover:text-gray-300'>View global alien encounter archive</a>"
+        },
+        {
+          "headline": "",
+          "text": "<span style=' margin: 20px'></span>"
+        },
+        {
+          "headline": "Crop Circles Explained?",
+          "text": "Complex geometric patterns appearing overnight continue to puzzle scientists and investigators."
+        },
+        {
+          "headline": "Research Hub",
+          "text": "<a href='#' class='hover:text-gray-300'>Visit extraterrestrial research hub</a>"
+        },
+        {
+          "headline": "",
+          "text": "<span style=' margin: 20px'></span>"
+        },
+        {
+          "headline": "Are We Being Observed?",
+          "text": "Astronomers suggest Earth may already be visible to advanced alien civilizations."
+        },
+        {
+          "headline": "More Articles",
+          "text": "<a href='#' class='hover:text-gray-300'>Read more alien-related articles</a>"
+        }
+      ]
+    }
+  }
+]
