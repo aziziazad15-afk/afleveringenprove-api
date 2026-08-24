@@ -29,13 +29,20 @@ app.use(
 );
 // Gør at Express automatisk læser JSON i request-body'en og gør den tilgængelig som req.body
 app.use(express.json());
+// Sandt når serveren kører deployet på Render (vi sætter selv IS_PRODUCTION=true der), falsk lokalt
+const isProduction = process.env.IS_PRODUCTION === "true";
+
 // Sætter session-cookien op, så vi kan huske om en bruger er logget ind mellem requests
 app.use(
   cookieSession({
     name: "session", // navnet på cookien i browseren
     keys: [process.env.SESSION_SECRET], // hemmelig nøgle brugt til at signere/kryptere cookien
     maxAge: 24 * 60 * 60 * 1000, // 24 timer
-    sameSite: "lax", // beskytter mod nogle CSRF-angreb, men tillader almindelig navigation
+    // "none" er nødvendig når frontend og backend er to forskellige RIGTIGE domæner (fx Vercel + Render).
+    // Lokalt er localhost:3000/:4000 "samme sted" for browseren, så "lax" er nok der.
+    sameSite: isProduction ? "none" : "lax",
+    // "none" kræver secure:true (cookien sendes kun over https) — det har vi kun i produktion, ikke lokalt (http)
+    secure: isProduction,
   })
 );
 
