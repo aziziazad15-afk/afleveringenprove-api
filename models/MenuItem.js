@@ -1,4 +1,4 @@
-// models/MenuItem.js
+// form for et menupunkt (name, img, description
 import mongoose from "../db.js";
 
 const contentItemSchema = new mongoose.Schema(

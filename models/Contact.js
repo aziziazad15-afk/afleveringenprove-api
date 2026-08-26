@@ -1,4 +1,4 @@
-// models/Contact.js
+// form for en kontakt-henvendelse (name, email, comment 
 import mongoose from "../db.js";
 
 const contactSchema = new mongoose.Schema(

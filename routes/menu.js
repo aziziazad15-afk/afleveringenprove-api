@@ -1,4 +1,4 @@
-// routes/menu.js
+// routes/menu.js Det her jeg har min CRUD GET PUT DELETE 
 import express from "express";
 import MenuItem from "../models/MenuItem.js";
 import requireAuth from "../middleware/requireAuth.js";
